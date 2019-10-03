@@ -60,9 +60,6 @@ public class ClientFrame extends JFrame {
                 SERVER_PORT = Integer.parseInt(port.getText());
                 port.setText("Порт и хост введены, можно зкрыть окно");
 
-
-
-
             }
             try {
                 // подключаемся к серверу
@@ -94,7 +91,6 @@ public class ClientFrame extends JFrame {
             bottomPanel.add(jtfMessage, BorderLayout.CENTER);
             jtfName = new JTextField("Введите ваше имя: ");
             bottomPanel.add(jtfName, BorderLayout.WEST);
-
 
 
             try {
